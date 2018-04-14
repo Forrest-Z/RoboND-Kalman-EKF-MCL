@@ -17,6 +17,6 @@ int main()
 {
 
     tie(new_mean, new_var) = measurement_update(10, 8, 13, 2);
-    printf("[New Mean=%f, New Var=%f\n]", new_mean, new_var);
+    printf("[\nNew Mean=%f, New Var=%f\n\n]", new_mean, new_var);
     return 0;
 }

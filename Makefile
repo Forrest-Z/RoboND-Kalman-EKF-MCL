@@ -1,11 +1,15 @@
 
 probability:
-	g++ probability.cpp -o probability.bin
+	g++ src/probability.cpp -o bin/probability
 
 measurement_update:
-	g++ measurement_update.cpp -o measurement_update.bin -std=c++11
+	g++ src/measurement_update.cpp -o bin/measurement_update -std=c++11
 
 all: probability measurement_update;
 
 clean:
-	rm *.bin
+	rm bin/*
+
+.PHONY: all
+
+default: all
