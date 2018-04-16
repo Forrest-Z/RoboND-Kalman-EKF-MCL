@@ -1,5 +1,9 @@
 [![Udacity - Robotics NanoDegree Program](https://s3-us-west-1.amazonaws.com/udacity-robotics/Extra+Images/RoboND_flag.png)](https://www.udacity.com/robotics)
 
+# Kalman & Extended Kalman filters
+
+See source code in src folder.
+
 # RoboND-MCL-Lab
 You will be able to observe the `MCL` in action through the generated images. 
 
